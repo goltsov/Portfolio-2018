@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-2018",
+  "version": "1.0.0",
+  "description": "This site will contain personal projects, contact information, and an updated resume.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goltsov/Portfolio-2018.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goltsov/Portfolio-2018/issues"
+  },
+  "homepage": "https://github.com/goltsov/Portfolio-2018#readme",
+  "devDependencies": {
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15"
+  }
+}
