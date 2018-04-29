@@ -2,9 +2,10 @@
   "name": "portfolio-2018",
   "version": "1.0.0",
   "description": "This site will contain personal projects, contact information, and an updated resume.",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
