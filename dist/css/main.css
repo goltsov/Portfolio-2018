@@ -472,4 +472,8 @@ textarea {
   h3 {
     page-break-after: avoid; } }
 
+html {
+  display: -ms-grid;
+  display: grid; }
+
 /*# sourceMappingURL=main.css.map*/

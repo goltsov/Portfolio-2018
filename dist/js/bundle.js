@@ -67,8 +67,22 @@
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
+"use strict";
+
+
 __webpack_require__(1);
 
+'use strict';
+
+var a = 'test';
+
+console.log(a);
+
+var b = function b(x) {
+  return x * 2;
+};
+
+console.log(b(5));
 
 /***/ }),
 /* 1 */
