@@ -1,0 +1,18 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  background: #000;
+  display: grid;
+  color:#fff;
+  height: 100%;
+  justify-items: center;
+}
+
+.main-link, .secondary-link {
+  a {
+    color: #fff;
+  }
+}
