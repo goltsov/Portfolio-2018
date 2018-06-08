@@ -16,3 +16,32 @@ html, body {
     color: #fff;
   }
 }
+
+.clock, .toggle {
+  display: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.description{
+  grid-row: 3 / span 2;
+  grid-column: 1 / 2;
+}
+
+.main-photo-container {
+  grid-row: 4 / span 2;
+  grid-column: 1 / 2;
+}
+
+.secondary-links {
+  ul {
+    list-style-type: none;
+  }
+}
+
+.secondary-link {
+  text-decoration: none;
+  text-align: center;
+}

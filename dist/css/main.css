@@ -353,6 +353,10 @@ td,
 th {
   padding: 0; }
 
+ul {
+  margin: 0;
+  padding: 0; }
+
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 html {
   color: #fff;
@@ -446,6 +450,31 @@ html, body {
 
 .main-link a, .secondary-link a {
   color: #fff; }
+
+.clock, .toggle {
+  display: none; }
+
+img {
+  max-width: 100%; }
+
+.description {
+  -ms-grid-row-span: 2;
+  -ms-grid-row: 3;
+      grid-row: 3 / span 2;
+  grid-column: 1 / 2; }
+
+.main-photo-container {
+  -ms-grid-row-span: 2;
+  -ms-grid-row: 4;
+      grid-row: 4 / span 2;
+  grid-column: 1 / 2; }
+
+.secondary-links ul {
+  list-style-type: none; }
+
+.secondary-link {
+  text-decoration: none;
+  text-align: center; }
 
 /* ==========================================================================
    Print styles
